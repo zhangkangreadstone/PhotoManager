@@ -15,6 +15,11 @@
 		554010E01F95BE69009E8F22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 554010DF1F95BE69009E8F22 /* main.m */; };
 		554010EA1F95BE69009E8F22 /* PhotosDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 554010E91F95BE69009E8F22 /* PhotosDemoTests.m */; };
 		554010F51F95BE69009E8F22 /* PhotosDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 554010F41F95BE69009E8F22 /* PhotosDemoUITests.m */; };
+		554011141F95E6ED009E8F22 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 554011131F95E6ED009E8F22 /* UIView+Frame.m */; };
+		554011201F95EF27009E8F22 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5540111E1F95EF27009E8F22 /* PhotoCollectionViewCell.m */; };
+		554011211F95EF27009E8F22 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5540111F1F95EF27009E8F22 /* PhotoCollectionViewCell.xib */; };
+		554011241F95F665009E8F22 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554011231F95F665009E8F22 /* Photos.framework */; };
+		554011DF1F9601F8009E8F22 /* FZJPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5540113B1F95FA0B009E8F22 /* FZJPhotoTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,23 @@
 		554010F01F95BE69009E8F22 /* PhotosDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		554010F41F95BE69009E8F22 /* PhotosDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosDemoUITests.m; sourceTree = "<group>"; };
 		554010F61F95BE69009E8F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554011121F95E6ED009E8F22 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		554011131F95E6ED009E8F22 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		554011161F95EA3B009E8F22 /* PhotoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPrefixHeader.pch; sourceTree = "<group>"; };
+		5540111D1F95EF27009E8F22 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		5540111E1F95EF27009E8F22 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		5540111F1F95EF27009E8F22 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		554011231F95F665009E8F22 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		5540112F1F95FA0B009E8F22 /* UIButtonExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonExt.h; sourceTree = "<group>"; };
+		554011301F95FA0B009E8F22 /* UIButtonExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonExt.m; sourceTree = "<group>"; };
+		554011311F95FA0B009E8F22 /* UIViewExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		554011321F95FA0B009E8F22 /* UIViewExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		554011341F95FA0B009E8F22 /* FZJHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZJHeader.h; sourceTree = "<group>"; };
+		554011351F95FA0B009E8F22 /* FZJPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZJPCH.pch; sourceTree = "<group>"; };
+		554011371F95FA0B009E8F22 /* FZJPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZJPhotoModel.h; sourceTree = "<group>"; };
+		554011381F95FA0B009E8F22 /* FZJPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZJPhotoModel.m; sourceTree = "<group>"; };
+		5540113A1F95FA0B009E8F22 /* FZJPhotoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZJPhotoTool.h; sourceTree = "<group>"; };
+		5540113B1F95FA0B009E8F22 /* FZJPhotoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZJPhotoTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554011241F95F665009E8F22 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,7 @@
 				554010E81F95BE69009E8F22 /* PhotosDemoTests */,
 				554010F31F95BE69009E8F22 /* PhotosDemoUITests */,
 				554010CE1F95BE69009E8F22 /* Products */,
+				554011221F95F665009E8F22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +125,21 @@
 		554010CF1F95BE69009E8F22 /* PhotosDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5540112D1F95FA0B009E8F22 /* PhotoManager */,
+				554011111F95E600009E8F22 /* Categories */,
 				554010D01F95BE69009E8F22 /* AppDelegate.h */,
 				554010D11F95BE69009E8F22 /* AppDelegate.m */,
 				554010D31F95BE69009E8F22 /* ViewController.h */,
 				554010D41F95BE69009E8F22 /* ViewController.m */,
+				5540111D1F95EF27009E8F22 /* PhotoCollectionViewCell.h */,
+				5540111E1F95EF27009E8F22 /* PhotoCollectionViewCell.m */,
+				5540111F1F95EF27009E8F22 /* PhotoCollectionViewCell.xib */,
 				554010D61F95BE69009E8F22 /* Main.storyboard */,
 				554010D91F95BE69009E8F22 /* Assets.xcassets */,
 				554010DB1F95BE69009E8F22 /* LaunchScreen.storyboard */,
 				554010DE1F95BE69009E8F22 /* Info.plist */,
 				554010DF1F95BE69009E8F22 /* main.m */,
+				554011161F95EA3B009E8F22 /* PhotoPrefixHeader.pch */,
 			);
 			path = PhotosDemo;
 			sourceTree = "<group>";
@@ -130,6 +160,72 @@
 				554010F61F95BE69009E8F22 /* Info.plist */,
 			);
 			path = PhotosDemoUITests;
+			sourceTree = "<group>";
+		};
+		554011111F95E600009E8F22 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				554011121F95E6ED009E8F22 /* UIView+Frame.h */,
+				554011131F95E6ED009E8F22 /* UIView+Frame.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		554011221F95F665009E8F22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				554011231F95F665009E8F22 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5540112D1F95FA0B009E8F22 /* PhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				5540112E1F95FA0B009E8F22 /* FZJCategory */,
+				554011331F95FA0B009E8F22 /* FZJCommon */,
+				554011361F95FA0B009E8F22 /* FZJModel */,
+				554011391F95FA0B009E8F22 /* FZJTool */,
+			);
+			path = PhotoManager;
+			sourceTree = "<group>";
+		};
+		5540112E1F95FA0B009E8F22 /* FZJCategory */ = {
+			isa = PBXGroup;
+			children = (
+				5540112F1F95FA0B009E8F22 /* UIButtonExt.h */,
+				554011301F95FA0B009E8F22 /* UIButtonExt.m */,
+				554011311F95FA0B009E8F22 /* UIViewExt.h */,
+				554011321F95FA0B009E8F22 /* UIViewExt.m */,
+			);
+			path = FZJCategory;
+			sourceTree = "<group>";
+		};
+		554011331F95FA0B009E8F22 /* FZJCommon */ = {
+			isa = PBXGroup;
+			children = (
+				554011341F95FA0B009E8F22 /* FZJHeader.h */,
+				554011351F95FA0B009E8F22 /* FZJPCH.pch */,
+			);
+			path = FZJCommon;
+			sourceTree = "<group>";
+		};
+		554011361F95FA0B009E8F22 /* FZJModel */ = {
+			isa = PBXGroup;
+			children = (
+				554011371F95FA0B009E8F22 /* FZJPhotoModel.h */,
+				554011381F95FA0B009E8F22 /* FZJPhotoModel.m */,
+			);
+			path = FZJModel;
+			sourceTree = "<group>";
+		};
+		554011391F95FA0B009E8F22 /* FZJTool */ = {
+			isa = PBXGroup;
+			children = (
+				5540113A1F95FA0B009E8F22 /* FZJPhotoTool.h */,
+				5540113B1F95FA0B009E8F22 /* FZJPhotoTool.m */,
+			);
+			path = FZJTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				554010DD1F95BE69009E8F22 /* LaunchScreen.storyboard in Resources */,
+				554011211F95EF27009E8F22 /* PhotoCollectionViewCell.xib in Resources */,
 				554010DA1F95BE69009E8F22 /* Assets.xcassets in Resources */,
 				554010D81F95BE69009E8F22 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +362,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554011DF1F9601F8009E8F22 /* FZJPhotoTool.m in Sources */,
+				554011141F95E6ED009E8F22 /* UIView+Frame.m in Sources */,
+				554011201F95EF27009E8F22 /* PhotoCollectionViewCell.m in Sources */,
 				554010D51F95BE69009E8F22 /* ViewController.m in Sources */,
 				554010E01F95BE69009E8F22 /* main.m in Sources */,
 				554010D21F95BE69009E8F22 /* AppDelegate.m in Sources */,
@@ -431,11 +531,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8MQE9554J;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PhotosDemo/PhotoPrefixHeader.pch";
 				INFOPLIST_FILE = PhotosDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.PhotosDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos11.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -444,11 +554,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8MQE9554J;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PhotosDemo/PhotoPrefixHeader.pch";
 				INFOPLIST_FILE = PhotosDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.PhotosDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos11.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
