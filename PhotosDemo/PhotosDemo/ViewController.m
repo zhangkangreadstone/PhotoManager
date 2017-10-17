@@ -10,7 +10,7 @@
 #import "PhotoCollectionViewCell.h"
 #import "FZJPhotoTool.h"
 
-#define kItemSpace 10
+#define kItemSpace 6
 #define kItemW (kSCreen_W-5*kItemSpace)/4.0
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
